@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        AplicativoSwing form = new AplicativoSwing();
+        form.setContentPane(form.formAppSwing);
+        form.setVisible(true);
+        form.setSize(500,500);
+        form.setTitle("Aplicativo Swing");
     }
 }
